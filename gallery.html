@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>meow "N" woof</title>
+	<link rel="stylesheet" href="CSS/style.css">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<body>
+	<nav id="navb">
+		<div class="header">
+			<a href="#"><img src="img/LOGO.png" class="logo" alt=""></a>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="gallery.html" class="active">GALLERY</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+		</div>
+	</nav>
+	<div id="sec4">
+			<!-- Slideshow container -->
+			<div class="slideshow-container">
+
+			  <!-- Full-width images with number and caption text -->
+			  <div class="mySlides fade">
+				<div class="numbertext">1 / 5</div>
+				<img src="img/img_dog_hotel.png" style="width:100%">
+				<div class="text">Hotel for Dogs</div>
+			  </div>
+
+			  <div class="mySlides fade">
+				<div class="numbertext">2 / 5</div>
+				<img src="img/img_cat_in_hotel.png" style="width:100%">
+				<div class="text">Hotel for Cats</div>
+			  </div>
+
+			  <div class="mySlides fade">
+				<div class="numbertext">3 / 5</div>
+				<img src="img/img_cat_n_doctor.png" style="width:100%">
+				<div class="text">Take care for a cat</div>
+			  </div>
+				
+			  <div class="mySlides fade">
+				<div class="numbertext">4 / 5</div>
+				<img src="img/img_dog_wash.png" style="width:100%">
+				<div class="text">Dog washing</div>
+			  </div>
+				
+			  <div class="mySlides fade">
+				<div class="numbertext">5 / 5</div>
+				<img src="img/img_training.png" style="width:100%">
+				<div class="text">Training</div>
+			  </div>
+
+			  <!-- Next and previous buttons -->
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+
+			<!-- The dots/circles -->
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span>
+			  <span class="dot" onclick="currentSlide(2)"></span>
+			  <span class="dot" onclick="currentSlide(3)"></span>
+			  <span class="dot" onclick="currentSlide(4)"></span>
+			  <span class="dot" onclick="currentSlide(5)"></span>
+			</div>
+			<script>
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("dot");
+				  if (n > slides.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+					  slides[i].style.display = "none";  
+				  }
+				  for (i = 0; i < dots.length; i++) {
+					  dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " active";
+				}
+				</script>
+
+		</div>
+
+</body>
+</html>

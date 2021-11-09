@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>meow "N" woof</title>
+	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<body>
+	<button onclick="topFunction()" id="myBtn"><i class="fa fa-arrow-up fa-2x"></i></button>
+	<nav id="navb">
+		<div class="header">
+			<a href="#"><img src="img/LOGO.png" class="logo" alt=""></a>
+				<ul>
+					<li><a href="index.html" class="active">HOME</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+		</div>
+	</nav>
+	
+	<main>
+	<section>
+<!--		section1-->
+		<div id="sec1">
+			<div class="s1">
+				<h1 class="animate__animated animate__bounceIn">meow "N" woof</h1>
+				<p class="animate__animated animate__bounceIn">YOUR FRIENDLY NEIGHBORHOOD PET SHOP</p>
+				<div class="animate__animated animate__bounceInUp">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-twitter"></i>
+				</div>
+			</div>
+		</div>
+		
+<!--		section2	-->
+		<div id="sec2">
+			<div class="s2">
+				<div data-aos="flip-left" class="avt">
+				<div class="tron">
+					<h1>get to know us</h1>
+					<p>moew 'N' woof is an all-natural and cruelty-free pet store that provides top quality food, accessories, and pioneering pet-sitting service for your pets.</p>
+				</div>
+				</div>
+			</div>
+		</div>
+		
+<!--		section3	-->
+		<div id="sec3">
+			<h1 class="td">our services</h1>
+			<div class="item">
+				<div class="item1"></div>
+				<div class="item2"></div>
+				<div class="item3"></div>
+				<div class="item4"></div>
+			</div>
+			<div class="nd">
+				<div class="nd1">
+					<h2>PET SITTING</h2>
+					<p>Hourly, Daily, Weekly,<br> and Monthly Rates</p>
+				</div>
+				<div class="nd2">
+					<h2>PET HOTEL</h2>
+					<p>Daily, Weekly,<br> and Monthly Rates</p>
+				</div>
+				<div class="nd3">
+					<h2>PAW - DICURE</h2>
+					<p>Grooming Services</p>
+				</div>
+				<div class="nd4">
+					<h2>CAMPING</h2>
+					<p>All summer long!</p>
+				</div>
+			</div>
+		</div>
+		
+	<!--	section04	-->
+		
+	<!--	section05	-->
+			<div id="sec5">
+				<div class="s5">
+					<div class="td1"><h1>products of food</h1></div>
+					<div class="td2">
+						<div class="h1"></div>
+						<div class="h2"></div>
+						<div class="h3"></div>
+					</div>
+					<div class="td3">
+						<div class="h4">
+							<h2>Products for Dogs</h2>
+							<p>Raise your dogs to be at their<br> happiest and healthiest!</p>
+						</div>
+						<div class="h5">
+							<h2>Products for Cats</h2>
+							<p>Premium products for your favorite<br>feline companions</p>
+						</div>
+						<div class="h6">
+							<h2>Others</h2>
+							<p>Browse our wide range of<br> high-quality pet products</p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		
+<!--		section06	-->
+			<div id="sec6">
+				<div class="s6">
+					<div class="feedb">
+						<div class="fb1">
+							<div class="o1"></div>
+							<div class="o2">
+								<h2>John</h2>
+								<p>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</p>
+							</div>
+						</div>
+						<div class="fb2">
+							<div class="o3"></div>
+							<div class="o4">
+								<h2>Mr. and Ms. Smith</h2>
+								<p>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</p>
+							</div>
+						</div>
+					</div>
+					<div class="feedb2">
+						<div data-aos="flip-right" class="avt">
+							<div class="img"><img src="img/features and reviews.png" alt=""></div>
+						</div>
+						<div class="o5">
+							<h1>features<br>and reviews</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+	</main>
+	<footer>
+		<p>Copyright@ 2021 Nguyen Tran Yen Linh</p>
+	</footer>
+	<script>
+	//Get the button:
+		mybutton = document.getElementById("myBtn");
+
+	// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+  		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		}
+		else {
+			mybutton.style.display = "none";
+		}
+		}
+
+	// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+  			document.body.scroll=0
+			document.documentElement.scrollTop=0
+		}
+	</script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+</html>
