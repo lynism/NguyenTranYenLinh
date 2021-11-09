@@ -119,8 +119,8 @@ section{
 #sec2{
 	position: relative;
 	width: 100%;
-	height: 750px;
-	margin-bottom: 100px;
+	height: 800px;
+/*	margin-bottom: 100px;*/
 	background-image: url("../img/layout2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -149,7 +149,7 @@ section{
 /* section 03 */
 #sec3{
 	position: relative;
-	height: 750px;
+	height: 680px;
 	width: 100%;
 }
 .td{
@@ -157,7 +157,8 @@ section{
 	text-align: center;
 	font-size: 4em;
 	font-weight: 700;
-	padding-bottom: 35px;
+	padding-top: 50px;
+	padding-bottom: 30px;
 }
 .item{
 	display: grid;
@@ -167,8 +168,8 @@ section{
 	padding: 0px 0px 0px 100px;
 }
 .item1{
-	width: 350px;
-	height: 350px;
+	width: 300px;
+	height: 300px;
 	background-image: url("../img/Dog and Cat-1.png");
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -177,8 +178,8 @@ section{
 	border-radius: 50%;
 }
 .item2{
-	width: 350px;
-	height: 350px;
+	width: 300px;
+	height: 300px;
 	background-image: url("../img/Dog and Cat-2.png");
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -187,8 +188,8 @@ section{
 	border-radius: 50%;
 }
 .item3{
-	width: 350px;
-	height: 350px;
+	width: 300px;
+	height: 300px;
 	background-image: url("../img/Dog and Cat-3.png");
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -197,8 +198,8 @@ section{
 	border-radius: 50%;
 }
 .item4{
-	width: 350px;
-	height: 350px;
+	width: 300px;
+	height: 300px;
 	background-image: url("../img/Camp.png");
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -211,16 +212,16 @@ section{
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	grid-template-rows: 275px;
-	grid-column-gap: 40px;
+	grid-column-gap: 25px;
 	text-align: center;
-	padding: 100px 50px 0px 50px;
+	padding: 50px 70px 0px 35px;
 }
 .nd h2{
 	color: #f48b48;
 }
 .nd p{
 	color: #f48b48;
-	padding-top:5px;
+	padding-top: 5px;
 }
 
 /* section 04 */
@@ -337,7 +338,7 @@ section{
 	text-align: center;
 	font-size: 2.5em;
 	font-weight: 700;
-	padding-top: 40px;
+	padding-top: 65px;
 	color: #c1694f;
 }
 .td2{
@@ -393,7 +394,7 @@ section{
 /* section 06 */
 #sec6{
 	width: 100%;
-	height: 800px;
+	height: 750px;
 	background-color: #f48b48;
 }
 .s6{
